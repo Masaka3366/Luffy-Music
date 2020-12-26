@@ -77,7 +77,7 @@ ${song.duration}
         
         `
         )
-        .setFooter(`PARAS GAMING 🇮🇳`);
+        .setFooter(`ATRICK OP`);
       return message.channel.send(thing);
     }
 
