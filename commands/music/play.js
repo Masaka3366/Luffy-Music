@@ -124,7 +124,7 @@ ${song.duration}
 
         .setImage(song.img)
         .setColor("GREEN")
-        .setFooter(`PARAS GAMING🇮🇳`);
+        .setFooter(`ATRICK OP | ADD ME IN YOUR SERVER`);
       queue.textChannel.send(thing);
     };
 
