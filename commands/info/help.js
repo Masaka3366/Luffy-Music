@@ -5,7 +5,7 @@ module.exports = {
   run: async (client, message, args) => {
     const embed = new discord.MessageEmbed()
 
-      .setTitle(`${client.user.username} HELP MENU`)
+      .setTitle(`${client.user.username} MUSIC HELP MENU`)
 
       .setThumbnail(
         message.author.displayAvatarURL({ dynamic: true, size: 1024 })
