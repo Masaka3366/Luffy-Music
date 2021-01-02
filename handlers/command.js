@@ -1,4 +1,4 @@
-const { readdirSync } = require("fs");
+pconst { readdirSync } = require("fs");
 
 const ascii = require("ascii-table");
 
