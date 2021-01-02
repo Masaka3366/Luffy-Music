@@ -19,7 +19,7 @@ client.queue = new Map();
 client.on("ready", () => {
     console.log(`Hi, ${client.user.username} is now online!`);
 
-    client.user.setActivity(",help ",{type: "LISTENING"}) 
+    client.user.setActivity(",help | .gg/giftbox",{type: "LISTENING"}) 
 })
 
 client.on("message", async message => {
