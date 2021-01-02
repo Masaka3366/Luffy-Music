@@ -15,16 +15,27 @@ module.exports = {
         `
 
 **MUSIC COMMANDS**
-\`play[p],search,pause,resume,stop,skip,skipall,skipto,nowplaying[np],queue,loop,remove,volume\`
+\`__**MODERATION**__ 🌸
+`.kick,warn,ban,unban,purge,lock,unlock,mute,unmute,changenick,nuke,giverole`
 
+🌸__**INFO**__
+`serverinfo,userinfo,serverstats,calendar`
 
-**INFO COMMANDS**
-\`ping,help\`
+🌸 __**ECONOMY**__ 🌸
+`bal,dep,withdraw,hunt,crime,beg,heist,rob,daily,weekly`
+```meme,search,emoji,kill,kiss,shoot,hack cry,hug,nitro,bully pat,cat,```
 
-__**ABOUT BOT**__
-A POWERFUL MUSIC BOT MADE 24/7 MUSIC PLAYERS 
-13+ COMMANDS
-`
+🌸 __**TICKET**__ 🌸
+`.ticket - (creat a ticket)
+.c ticket - (close the ticket)`
+
+🌸 __**MUSIC**__ 🌸
+`.play | .pause |.stop
+
+🌸 __**BOT INFO**__ 🌸
+`.botinfo,.bugreport,.freepremium,.inv,`
+[**INVITE ME**](https://discord.com/oauth2/authorize?client_id=781774443859935242&scope=bot&permissions=2147483647)]
+$footer[use . before all commands example .help
       )
       .setFooter(message.guild);
     message.channel.send(embed);
