@@ -19,8 +19,7 @@ client.queue = new Map();
 });
 
 client.on("ready", () => {
-    console.log(`[API] Connected to ${client.user.username}`);
-
+    console.log(chalk.blue(`[API] Connected to ${client.user.username}`));
     client.user.setActivity(".help | New music feature added",{type: "LISTENING"}) 
 })
 
