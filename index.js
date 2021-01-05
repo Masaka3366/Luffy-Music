@@ -1,5 +1,7 @@
 const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
+const chalk = require('chalk')
+const figlet = require('figlet');
 const {prefix} = require("./config.json")
 
 const client = new Client({
@@ -17,7 +19,7 @@ client.queue = new Map();
 });
 
 client.on("ready", () => {
-    console.log(`Hi, ${client.user.username} is now online!`);
+    console.log(`[API] Connected to ${client.user.username}`);
 
     client.user.setActivity(".help | New music feature added",{type: "LISTENING"}) 
 })
