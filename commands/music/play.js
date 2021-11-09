@@ -19,7 +19,7 @@ module.exports = {
         embed: {
           color: "FF0000",
           description:
-            "<:emoji_17:763367241327706118> I don't have permission to connect your vc!"
+            "I don't have permission to connect your vc!"
         }
       });
     }
@@ -28,13 +28,13 @@ module.exports = {
         embed: {
           color: "FF0000",
           description:
-            "<:emoji_17:763367241327706118>I need speak permission for playing music!"
+            "I need speak permission for playing music!"
         }
       });
     }
     var searchString = args.join(" ");
     if (!searchString) {
-      message.channel.send("<:emoji_17:763367241327706118>provide us song' name or song's link");
+      message.channel.send("Provide us song' name or song's link");
     }
 
     var serverQueue = message.client.queue.get(message.guild.id);
